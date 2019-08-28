@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url('../images/bulb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 577px;
+    /* position: absolute; */
+}
+
+#container{
+    width: 100%;
+    height: 577px;
+    display: grid;
+    grid-template-rows: 90px 1fr 70px;
+    /* background:pink; */
+}
+
+#header{
+    /* background:white; */
+    width: 100%;
+    /* padding-top: 35px; */
+    /* padding-left: 700px; */
+    margin: 40px auto;
+}
+
+h1{
+    font-size: 4.5em;
+    font-style: italic;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* color: #bdc3c7; */
+    color: black;
+}
+
+#menu{
+    width: 100%;
+    /* padding-top: 40px; */
+    /* padding-left: 700px; */
+    margin: 40px auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* ul{
+    padding-left: 50px;
+} */
+
+ul li{
+    text-align: center;
+    /* padding: 10px; */
+    width: 100%;
+    /* background: pink; */
+}
+
+ul li a{
+    font-size: 2em;
+    /* color: #bdc3c7; */
+    color: black;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Amatic SC', cursive;
+
+    /* color:black; */
+
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+form{
+    margin-top: 30px;
+    width: 100%;
+    
+    /* margin-left: 50px; */
+    /* padding-top:10px; */
+    
+} 
+
+/* ul li .search-box{
+    text-align: center;
+    /* padding: 10px; 
+    width: 100%;
+} */
+
+.search-txt {
+    border: none;
+    background: none;
+    color: black;
+    outline: none;
+    
+    font-weight:bolder;
+    font-size: 13px;
+    border-bottom: 2px solid black;
+}
+b{
+    font-size: 1.7em;
+    font-family: 'Amatic SC', cursive;
+    /* color: #bdc3c7; */
+    color:black;
+
+}
+
+.search-btn{
+    font-weight: normal;
+    font-size: 15px;
+} 
+
+
+#footer{
+    /* background: green; */
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    color: #bdc3c7;
+    /* width: 60px; */
+    background: none;
+}
