@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const MongoClient = require('mongodb').MongoClient;
 const DATABASE_NAME = 'Users';
-const MONGO_URL = 'mongodb://<username>:<password>@cluster0-shard-00-00-1jbta.mongodb.net:27017,cluster0-shard-00-01-1jbta.mongodb.net:27017,cluster0-shard-00-02-1jbta.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority';
+const MONGO_URL = 'mongodb://<boss101>:<baodinh>@cluster0-shard-00-00-1jbta.mongodb.net:27017,cluster0-shard-00-01-1jbta.mongodb.net:27017,cluster0-shard-00-02-1jbta.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority';
 
 const uuid = require('uuid/v4')
 const bodyParser = require('body-parser');
