@@ -654,7 +654,7 @@ async function startServer() {
     comments = await db.collection('comments');
     console.log(collection);
     // insertUser();
-    await app.listen(3000);
+    await app.listen(process.env.port || 3000);
     console.log('Listening on port 3000');
 }
 startServer();
